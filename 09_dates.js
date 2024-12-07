@@ -5,3 +5,6 @@ console.log(myDate.toDateString());//Sat Dec 07 2024
 console.log(myDate.toISOString());//2024-12-07T08:30:55.757Z
 console.log(myDate.toJSON());//2024-12-07T08:30:55.757Z
 console.log(myDate.toLocaleDateString());//7/12/2024
+//date is object
+let NewDate = new Date(2025,0,21);
+console.log(NewDate.toDateString());
