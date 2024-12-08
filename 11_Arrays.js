@@ -3,6 +3,7 @@ const DCheros= ["superman","flash","batman"];
 // marvelHeros.push(DCheros);//push pushes entire array into array
 // console.log(marvelHeros);
 // console.log(DCheros);//array takes entire DCheros as a element in marvelHeros 
+
 const allHeros = marvelHeros.concat(DCheros);
 console.log(allHeros);//concats array
 
