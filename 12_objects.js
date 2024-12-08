@@ -35,6 +35,6 @@ JsUser.greeting = function(){
 JsUser.greeting2= function(){
     console.log(`Hello ${this.name} , Your age is ${this.age} and your email address is ${this.email}`);
 }
-console.log(JsUser.greeting());//
-console.log(JsUser.greeting2());
+console.log(JsUser.greeting());//this will return undefined also because this keyword is not referring to the JsUser object
+console.log(JsUser.greeting2());//
 
