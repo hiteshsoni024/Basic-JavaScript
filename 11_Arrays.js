@@ -16,3 +16,9 @@ console.log(anotherArray.flat(Infinity));//flats array in one array
 
 console.log(Array.isArray("hitesh"));//search hitesh in array
 console.log(Array.from("HITESH SONI"));//creates an array of string elements
+
+let score1 = 100;
+let score2 = 200;
+let score3 = 300;
+
+console.log(Array.of(score1,score2,score3));//array.of creates an array of variables
