@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 const user={
     name: "John Doe",
     age: 30,
@@ -36,16 +35,4 @@ console.log(this);//we are in node environment -> global content is empty that's
 // const addnum =(num1,num2)=> {num1,num2}//this will not run untill we use return
 const addnum =(num1,num2)=> {username : "Hitesh"}//this will not run untill if we not use () because this is object
 console.log(addnum(3,5));
-=======
-//Immediately invoke fuction expression (IIFE)
-//They are typically used to create a local scope for variables to prevent them from polluting the global scope.
-( function chai(){//named IIFE
-    console.log("Database is Connected");
-} )();
 
-//or
-
-( (name) => {//unnamed IIFE
-    console.log(`DataBase connected ! ${name}`);
-} )("Hitesh");//parameter is passes through name
->>>>>>> 7a9985e1bb2074c270214b45d779a8853912ab1f
