@@ -6,10 +6,23 @@ if(isUserLoggedIn){
     console.log("Executed")
 }
 
-const score = 200;
-if (score >100){
-    power="fly"
-}else{
-    power="swim"
+// const score = 200;
+// if (score >100){
+//     power="fly"
+// }else{
+//     power="swim"
+// }
+// console.log(`User can ${power}`)
+
+const isUserLoggedin = true 
+const DebitCard = true
+const loggedInFromGoogle = false
+const loggedInFromEmail =true
+
+if(isUserLoggedIn && DebitCard){
+    console.log("user can buy our course");
 }
-console.log(`User can ${power}`)
+if(loggedInFromEmail || loggedInFromGoogle){
+    console.log("User is logged in");
+    
+}
