@@ -54,4 +54,8 @@ switch (month) {
 
 //truthy and falsy values 
 // except 0,-0,BigInt,"",null,undefined,NaN all are truthy
+<<<<<<< HEAD
 //"0","false"," ",[] -> if(array.length==0),{} -> if(Object.keys(name of object).length === 0),function(){} are truthy
+=======
+//"0","false"," ",[] -> if(array.length==0),{} -> if(Object.keys(name of object).length === 0),function(){} are truthy
+>>>>>>> b1384bd104814bd273db636a83bd5ab042a2738a

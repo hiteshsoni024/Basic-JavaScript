@@ -34,4 +34,8 @@ for (let index = 0; index < 20; index++) {
         continue;//continue ignores the condition one time only and continues where it ignores
     }
     console.log(`Value of index is ${index}`)
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> b1384bd104814bd273db636a83bd5ab042a2738a
